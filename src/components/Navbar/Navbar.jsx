@@ -16,5 +16,10 @@ export const Navbar = () => {
 		));
 	};
 
-	return <nav>{renderLinks()}</nav>;
+	return (
+		<nav className='navbar'>
+			<div>Fabio Girolami</div>
+			{renderLinks()}
+		</nav>
+	);
 };
